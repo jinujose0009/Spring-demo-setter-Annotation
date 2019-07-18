@@ -7,7 +7,7 @@ public class TrackCoach implements Coach{
 	@Autowired
     private FortuneService fortuneservice;
     
-	public FortuneService getFortuneservice() {
+	public FortuneService getFortuneservicetest() {
 		return fortuneservice;
 	}
 	//define setter injection
